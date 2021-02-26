@@ -1,0 +1,21 @@
+.Custom-Button{
+    display: block;
+    border: none;
+    background-color: #00EC5B;
+    color: #1B1F1C;
+    padding: 18px 54px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 24px 0;
+    transition: ease-in-out all 0.5s;
+
+    &:hover{
+        background-color: #02ac43;
+        color: white;
+    }
+}
+
+.fit-button{
+    width: 100%;
+}
+

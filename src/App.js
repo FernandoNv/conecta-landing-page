@@ -1,7 +1,11 @@
+import HomeBanner from './components/HomeBanner/home-banner.component';
+
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <p>Project Created</p>
+      <HomeBanner />
     </div>
   );
 }

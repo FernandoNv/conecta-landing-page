@@ -1,0 +1,88 @@
+.container{
+    min-height: 100vh;
+    background-image: url('../../images/adrien-olichon.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.Home-Banner{
+    max-width: 1296px;
+    min-height: 100vh;
+    padding: 20px;
+    margin: auto;
+
+    .home-banner-content-area{
+        height: calc(100vh - 90px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .home-banner-content{
+            display: flex;
+            flex-direction: column;
+
+            .home-banner-title{
+                text-align: center;
+                font-size: 38px;
+                color: white;
+            }
+
+            .home-banner-image{
+                width: 65%;
+                height: auto;
+                align-self: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .Home-Banner{
+
+        .home-banner-content-area{
+            justify-content: space-between;
+            flex-direction: row-reverse;
+
+            .home-banner-content{
+                align-items: flex-start;
+
+                .home-banner-title{
+                    font-size: 48px;
+                    color: white;
+                    align-self:flex-start;
+                }
+
+                .home-banner-image{
+                    width: 110%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1025px){
+    .Home-Banner{
+        
+        .home-banner-content-area{
+            align-items: center;
+            justify-content: baseline;
+            flex-direction: row-reverse;
+
+            .home-banner-content{
+                width: 50%;
+
+                .home-banner-title{
+                    font-size: 64px;
+                    color: white;
+                    align-self:flex-start;
+                }
+
+                .home-banner-image{
+                    width: 55%;
+                }
+            }
+        }
+    }
+}
