@@ -1,9 +1,8 @@
 .Products{
     max-width: 1296px;
-    min-height: 100vh;
     padding: 20px;
-    margin: auto;
-
+    margin: 0 auto;
+    
     .products-content{
 
         .products-title, .products-description{
@@ -17,5 +16,20 @@
         .products-description{
             font-size: 16px;
         }
+    }
+}
+
+@media(min-width: 768px){
+    .Products{
+        .list-products{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+@media(min-width: 1025px){
+    .Products{
+        width: 60%;
     }
 }

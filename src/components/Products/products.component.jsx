@@ -1,5 +1,6 @@
 import React from 'react';
-import './producst.styles.scss';
+import ProductCard from '../ProductCard/product-card.component';
+import './products.styles.scss';
 
 class Products extends React.Component {
     constructor(props){
@@ -8,11 +9,14 @@ class Products extends React.Component {
         this.state = {
             products: [
                 {
-                    title: 'Garrafa 100ml',
+                    //uma pequena gambiarra para poder inserir a imagem do produto
+                    imageUrl: 'https://raw.githubusercontent.com/FernandoNv/conecta-landing-page/dab391944208ed2571e1508e72297214ca18cf16/src/images/garrafa-guarana.svg',
+                    title: 'Garrafa 350ml',
                     description: 'Lorem ipsum dolor sit amet'   
                 },
                 {
-                    title: 'Garrafa 350ml',
+                    imageUrl: 'https://raw.githubusercontent.com/FernandoNv/conecta-landing-page/dab391944208ed2571e1508e72297214ca18cf16/src/images/lata-guarana-pequena.svg',
+                    title: 'Garrafa 100ml',
                     description: 'Lorem ipsum dolor sit amet'   
                 }
             ]
@@ -25,11 +29,11 @@ class Products extends React.Component {
             <main className='Products'>
                 <div className='products-content'>
                     <h2 className='products-title'> Produtos </h2>
-                    <p className='products-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper, tortor sed vehicula.</p>
+                    <p className='products-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <br /> semper, tortor sed vehicula.</p>
                 </div>
                 <div className='products-content list-products'>
                    {
-                       products.map(product => <p>{product.title}</p>)
+                       products.map(product => <ProductCard title={product.title} imageUrl={product.imageUrl} description={product.description} />)
                    }
                 </div>
             </main>
