@@ -1,0 +1,85 @@
+.BottomBanner{
+    background-color: #00EC5B;
+    margin-top: 72px;
+
+    .bottom-banner-content{
+        max-width: 1296px;
+        min-height: 290px;
+        padding: 20px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        .bottom-banner-image-large{
+            width: 150px;
+            height: auto;
+            margin-top: -90px;
+        }
+    
+        .bottom-banner-image-medium{
+            height: auto;
+            display: none;
+        }
+    
+        .bottom-banner-image-small{
+            height: auto;
+            display: none;
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .bottom-banner-content{
+        
+        .bottom-banner-image-large{
+            width: 270px !important;
+            margin-top: initial !important;
+            position:absolute;
+            bottom: -90px;
+            right: 7.5%;
+            transform: rotate(15deg);
+           
+            
+        }
+    
+        .bottom-banner-image-medium{
+            width: 178px;
+            display: initial!important;
+            position: absolute;
+            bottom: -76px;
+            left: 15%;
+            transform: rotate(-15deg);
+        }
+    
+        .bottom-banner-image-small{
+            width: 90px;
+            display: initial!important;
+            position: absolute;
+            top: -56px;
+            left: 12%;
+            filter: blur(2px);
+            transform: rotate(15deg);
+        }
+    }
+}
+
+
+@media(min-width: 1024px){
+    .bottom-banner-content{
+        
+        .bottom-banner-image-large{
+            right: 20%;
+        }
+    
+        .bottom-banner-image-medium{
+            left: 25%;
+        }
+    
+        .bottom-banner-image-small{
+            left: 20%;
+        }
+    }
+}

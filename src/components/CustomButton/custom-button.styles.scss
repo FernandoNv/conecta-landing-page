@@ -9,7 +9,7 @@
     margin: 24px 0;
     transition: ease-in-out all 0.5s;
     cursor: pointer;
-
+    z-index: 1;
     &:hover{
         background-color: #02ac43;
     }
@@ -17,5 +17,14 @@
 
 .fit-button{
     width: 100%;
+}
+
+.dark-color{
+    background-color: #1B1F1C;
+    color: white;
+
+    &:hover{
+        background-color: #3f4942;
+    }
 }
 
