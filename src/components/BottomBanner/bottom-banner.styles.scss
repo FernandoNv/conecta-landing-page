@@ -1,6 +1,7 @@
 .BottomBanner{
     background-color: #00EC5B;
     margin-top: 72px;
+    z-index: 0;
 
     .bottom-banner-content{
         max-width: 1296px;
@@ -28,12 +29,16 @@
             height: auto;
             display: none;
         }
+
+        .bottom-banner-title{
+            font-weight: bold;
+        }
     }
 }
 
 @media(min-width: 768px){
     .bottom-banner-content{
-        
+
         .bottom-banner-image-large{
             width: 270px !important;
             margin-top: initial !important;
@@ -41,8 +46,6 @@
             bottom: -90px;
             right: 7.5%;
             transform: rotate(15deg);
-           
-            
         }
     
         .bottom-banner-image-medium{

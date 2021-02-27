@@ -33,7 +33,7 @@ class Products extends React.Component {
                 </div>
                 <div className='products-content list-products'>
                    {
-                       products.map(product => <ProductCard title={product.title} imageUrl={product.imageUrl} description={product.description} />)
+                       products.map(product => <ProductCard key={product.title} title={product.title} imageUrl={product.imageUrl} description={product.description} />)
                    }
                 </div>
             </main>

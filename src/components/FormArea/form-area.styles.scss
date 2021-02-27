@@ -1,0 +1,78 @@
+.Form-Area{
+    background-color: #1B1F1C;
+    position: relative;
+    
+    .form-area-content{
+        min-height: 80vh;
+        padding: 90px 20px;
+        margin: 0 auto;
+        
+
+        .form-area-content-description{
+            .center-element{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .form-title{
+                font-size: 32px;
+                color: white;
+            }
+    
+            .form-social{
+                padding: 18px 0;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .form-social-link{
+                    text-decoration: none;
+                    margin-right: 18px;
+                    i{
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+    
+                span{
+                    color: white;
+                    margin-left: 5px;
+                    font-size: 12px;
+                    font-family: Inter, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .Form-Area{
+        .form-area-content{
+            max-width: 768px;
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .Form-Area{
+        .form-area-content{
+            max-width: 1296px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .form-area-content-description{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+
+                .center-element{
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+}
