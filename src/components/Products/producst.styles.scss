@@ -1,0 +1,21 @@
+.Products{
+    max-width: 1296px;
+    min-height: 100vh;
+    padding: 20px;
+    margin: auto;
+
+    .products-content{
+
+        .products-title, .products-description{
+            margin: 24px 0;
+            text-align: center;
+        }
+        .products-title{
+            font-size: 24px;
+        }
+
+        .products-description{
+            font-size: 16px;
+        }
+    }
+}
