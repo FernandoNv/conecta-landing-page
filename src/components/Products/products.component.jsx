@@ -27,10 +27,10 @@ class Products extends React.Component {
         const { products } = this.state;
         return(
             <main className='Products'>
-                <div className='products-content'>
+                <section className='products-content'>
                     <h2 className='products-title'> Produtos </h2>
                     <p className='products-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <br /> semper, tortor sed vehicula.</p>
-                </div>
+                </section>
                 <div className='products-content list-products'>
                    {
                        products.map(product => <ProductCard key={product.title} title={product.title} imageUrl={product.imageUrl} description={product.description} />)

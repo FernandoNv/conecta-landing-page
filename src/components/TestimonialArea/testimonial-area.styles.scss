@@ -1,0 +1,92 @@
+.Testimonial-Area{
+    padding: 5px;
+    
+    .testimonial-container{
+        max-width: 1296px;
+        min-height: 100vh;
+        padding: 20px;
+        margin: auto;
+
+
+        .testimonial-area{
+            height: 100vh;
+            display: block;
+        }
+        .woman-pub{
+            background-image: url('../../images/woman-pub.png');
+            background-position: 75% 0%;
+            background-size: cover;
+        }
+
+        .testimonial{
+            height: 50%;
+            background-color: #1B1F1C;
+            font-size: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                text-align: center;
+                color: white;
+                margin-bottom: 16px;
+                padding: 0 12px;
+                font-size: 16px;
+            }
+
+            small{
+                color: white;
+                font-size: 14px;
+            }
+        }
+
+        .man-pub{
+            height: 50%;
+            background-image: url('../../images/man-pub.png');
+            background-position: center;
+            background-size: cover;
+            filter: grayscale(50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h3{
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .Testimonial-Area{
+        .testimonial-container{
+            display: flex;
+            flex-direction: row;
+
+            .woman-pub, .testimonial-area{
+                width: 50%;
+            }
+
+            .testimonial{
+                p{
+                    padding: 0 24px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .Testimonial-Area{
+        .testimonial-container{
+            .testimonial{
+                p{
+                    padding: 0 72px;
+                }
+            }
+        }
+    }
+}

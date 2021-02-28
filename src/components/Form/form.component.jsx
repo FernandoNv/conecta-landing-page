@@ -21,11 +21,13 @@ class Form extends React.Component {
         return ( 
             <form className='Form'>
                 <FormInput type='text' label='NOME' placeholder='Nome'/>
-                <FormInput type='tel' label='TELEFONE' placeholder='(21) 00000-0000'/>
-                <FormInput type='email' label='EMAIL' placeholder='email@email.com.br'/>
+                <div className='tel-email'>
+                    <FormInput type='tel' label='TELEFONE' placeholder='(21) 00000-0000'/>
+                    <FormInput type='email' label='EMAIL' placeholder='email@email.com.br'/>
+                </div>
                 <FormInput select label='ASSUNTO' />
                 <FormInput textarea label='MENSAGEM' placeholder='Escreva aqui sua mensagem'/>
-                <CustomButton text='Aqui um CTA' fitButton/>
+                <CustomButton text='Aqui um CTA'/>
             </form>
         );
     }

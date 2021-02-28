@@ -1,0 +1,38 @@
+.Footer{
+    background-color: #1B1F1C;
+
+    .footer-content{
+        max-width: 1296px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .footer-copyright, .footer-area-logo{
+            font-family: Inter, sans-serif;
+            color: white;
+            font-size: 12px;
+        }
+
+        .footer-copyright{
+            opacity: 0.3;
+            margin: 10px;
+        }
+
+        .footer-area-logo{
+            font-size: 9px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .Footer{
+        .footer-content{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

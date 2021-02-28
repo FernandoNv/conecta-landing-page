@@ -1,4 +1,23 @@
 .Form{
-    padding: 20px;
+    padding: 0 20px;
     width: 100%;
+    button{
+        width: 100%;
+    }
+}
+
+@media(min-width: 1024px){
+    .Form{
+        .tel-email{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        button{
+            width: initial;
+            float: right;
+        }
+    }
+
 }
