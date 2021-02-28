@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/conecta-landing-page/static/css/main.364c9276.chunk.css",
+    "main.js": "/conecta-landing-page/static/js/main.34ab055f.chunk.js",
+    "main.js.map": "/conecta-landing-page/static/js/main.34ab055f.chunk.js.map",
+    "runtime-main.js": "/conecta-landing-page/static/js/runtime-main.0a6a9469.js",
+    "runtime-main.js.map": "/conecta-landing-page/static/js/runtime-main.0a6a9469.js.map",
+    "static/js/2.955cd0a3.chunk.js": "/conecta-landing-page/static/js/2.955cd0a3.chunk.js",
+    "static/js/2.955cd0a3.chunk.js.map": "/conecta-landing-page/static/js/2.955cd0a3.chunk.js.map",
+    "static/js/3.935b5acf.chunk.js": "/conecta-landing-page/static/js/3.935b5acf.chunk.js",
+    "static/js/3.935b5acf.chunk.js.map": "/conecta-landing-page/static/js/3.935b5acf.chunk.js.map",
+    "index.html": "/conecta-landing-page/index.html",
+    "static/css/main.364c9276.chunk.css.map": "/conecta-landing-page/static/css/main.364c9276.chunk.css.map",
+    "static/js/2.955cd0a3.chunk.js.LICENSE.txt": "/conecta-landing-page/static/js/2.955cd0a3.chunk.js.LICENSE.txt",
+    "static/media/home-banner.styles.scss": "/conecta-landing-page/static/media/adrien-olichon.36cd532b.png",
+    "static/media/lata-guarana.180a2c11.svg": "/conecta-landing-page/static/media/lata-guarana.180a2c11.svg",
+    "static/media/testimonial-area.styles.scss": "/conecta-landing-page/static/media/woman-pub.414af848.png",
+    "static/media/marca-conecta.90221520.svg": "/conecta-landing-page/static/media/marca-conecta.90221520.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a6a9469.js",
+    "static/js/2.955cd0a3.chunk.js",
+    "static/css/main.364c9276.chunk.css",
+    "static/js/main.34ab055f.chunk.js"
+  ]
+}
