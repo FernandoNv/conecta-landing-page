@@ -2,7 +2,6 @@ import './form-Input.styles.scss';
 
 const FormInput = ({ label, placeholder, type, textarea, select}) => (
     <div className='FormInput'>
-        <label htmlFor={label} className='form-input-label'>{ label.toUpperCase() }</label>
         {
                 textarea 
             ? <textarea id={label} className='form-input form-input-textarea' placeholder={placeholder}></textarea>
@@ -21,6 +20,7 @@ const FormInput = ({ label, placeholder, type, textarea, select}) => (
                 type={type} 
                 placeholder={placeholder} />
         }
+        <label htmlFor={label} className='form-input-label'>{ label.toUpperCase() }</label>
     </div>
 );
  
