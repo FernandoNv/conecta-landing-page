@@ -1,4 +1,4 @@
-import './form-Input.styles.scss';
+import './form-input.styles.scss';
 
 const FormInput = ({ label, placeholder, type, textarea, select}) => (
     <div className='FormInput'>
@@ -7,7 +7,7 @@ const FormInput = ({ label, placeholder, type, textarea, select}) => (
             ? <textarea id={label} className='form-input form-input-textarea' placeholder={placeholder}></textarea>
             :   select 
             ? (
-                <select className='form-input' name="select" required>
+                <select id={label} className='form-input' name="select" required>
                     <option defaultValue disabled className='form-input-option' value="">Selecione um Assunto</option>
                     <option className='form-input-option' value="sugestao">Sugestão</option>
                     <option className='form-input-option' value="servico">Serviços</option>

@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomButton from '../CustomButton/custom-button.component';
-import FormInput from '../FormInput/form-Input.component';
+import FormInput from '../FormInput/form-input.component';
 
 import './form.styles.scss';
 
